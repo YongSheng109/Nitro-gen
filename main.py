@@ -50,12 +50,11 @@ class NitroGen: # Initialise the class
         else: # Or if it is unix
             print(f'\33]0;Nitro Generator and Checker - Made by Drillenissen#4268\a', end='', flush=True) # Update title of command prompt
 
-        print("""__   __                ____            _       _           _
-\ \ / /__  _ __   __ _/ ___|  ___ _ __(_)_ __ | |_  __   _/ |
- \ V / _ \| '_ \ / _` \___ \ / __| '__| | '_ \| __| \ \ / / |
-  | | (_) | | | | (_| |___) | (__| |  | | |_) | |_   \ V /| |
-  |_|\___/|_| |_|\__, |____/ \___|_|  |_| .__/ \__|   \_/ |_|
-                 |___/                  |_|
+        print("""__   __             ___         _      _
+\ \ / /__ _ _  __ _/ __| __ _ _(_)_ __| |_
+ \ V / _ \ ' \/ _` \__ \/ _| '_| | '_ \  _|
+  |_|\___/_||_\__, |___/\__|_| |_| .__/\__|
+              |___/              |_|
   """) # Print the title card
         time.sleep(2) # Wait a few seconds
         self.slowType("Made by: YongSheng_#1976", .02) # Print who developed the code
